@@ -15,7 +15,15 @@ const path = require("path");
 const app = express();
 
 // Middlewares
-app.use(cors());
+app.use(
+  cors({
+    origin: [
+      "http://localhost:3000",
+      "https://inventory-frontend-8tar.onrender.com",
+    ],
+    credentials: true,
+  })
+);
 app.use(express.json());
 app.use(cookieParser());
 app.use(express.urlencoded({ extended: false }));
@@ -25,7 +33,7 @@ app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 app.use(express.static(path.join(__dirname, "./frontend/build")));
 
 app.get("/*", (req, res) =>
-  res.sendFile(path.join(__dirname, "build", "index.html"))
+  res.sendFile(path.resolve(__dirname, "build", "index.html"))
 );
 // Routes Middleware
 app.use("/api/users", userRoute);
