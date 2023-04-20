@@ -1,16 +1,19 @@
 .contact {
+  
   .card {
     padding: 1rem;
     border: 1px solid #ccc;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(222, 255, 102));
+
   }
 
   .card2 {
     padding: 2rem;
-    background-color: green;
-    color: #fff;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(222, 255, 102));
+    color: #000000;
     h3,
     p {
-      color: #fff;
+      color: #000000;
     }
     .icons {
       margin: 3rem 0;

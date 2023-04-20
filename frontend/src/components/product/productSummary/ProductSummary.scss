@@ -4,13 +4,15 @@
     display: flex;
     flex-wrap: wrap;
   }
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(222, 255, 102));
+
 }
 
 .card {
   border: 1px solid #ccc;
   // border-bottom: 3px solid var(--light-blue);
   padding: 5px;
-  background-color: #f5f6fa;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(222, 255, 102));
 }
 
 .card1 {

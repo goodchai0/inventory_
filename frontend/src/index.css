@@ -35,7 +35,7 @@ html {
 
 body {
   font-family: var(--font-family);
-  background: #eee;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(222, 255, 102));
 }
 
 section {
@@ -200,7 +200,7 @@ p {
   color: orangered;
 }
 .--color-success {
-  color: hsl(134, 26%, 49%);
+  color:  rgb(36, 102, 36);
 }
 
 .--color-white {
@@ -336,7 +336,7 @@ p {
   width: 6em;
   height: 3em;
   border-radius: 2em;
-  background: #28a745;
+  background-color:  rgb(43, 118, 43);
 }
 
 /* Background */

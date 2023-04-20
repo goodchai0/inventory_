@@ -13,10 +13,11 @@ main {
   width: 230px;
   height: 100vh;
   flex-shrink: 0;
-  background-color: var(--color-white);
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgb(222, 255, 102));
   overflow: auto;
   color: var(-color-dark);
   transition: all 0.5s;
+  border:1px solid black;
 }
 
 .top_section {

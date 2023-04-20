@@ -25,7 +25,7 @@ const Home = () => {
             <li>
               <button className="--btn --btn-success">
                 <Link to="/login">
-                  <h4 style={{ color: "black", paddingTop: "0.4em" }}>Login</h4>
+                  <h4 style={{ color: "white", paddingTop: "0.4em" }}>Login</h4>
                 </Link>
               </button>
             </li>
@@ -45,17 +45,22 @@ const Home = () => {
           <h2
             style={{
               color: "black",
-              background: "hsl(134, 26%, 49%)",
+              background: "linear-gradient(to left, rgba(0, 0, 0, 0),  rgb(222, 255, 102))",
               padding: "1em",
-              borderRadius: "5rem",
+              borderRadius: "2rem",
             }}
           >
             {" "}
             HITK Inventory {"&"} Stock Management Solution
           </h2>
-          <p>
+          <p style={{
+              color: "black",
+              background: "linear-gradient(to left, rgba(0, 0, 0, 0),  rgb(222, 255, 102))",
+              padding: "1em",
+              
+            }}>
             <div>
-              <h4 style={{ color: "white" }}>
+              <h4 >
                 HITK Inventory system to control and manage proucts in the
                 warehouse in real timeand integrated to make it easier to
                 develop your business.
@@ -63,9 +68,14 @@ const Home = () => {
             </div>
             <br></br>
             <br></br>
-            <div className="hero-text">
+            <div className="">
               <h4>Team members:</h4>
-              <h4>
+              <h4 style={{
+                borderRadius:"0.5em",
+              color: "black",
+              padding: "1em",
+              background: "linear-gradient(to left, rgba(0, 0, 0, 0),   rgb(192 251 86))",
+            }}>
                 <ul>
                   <li>1. Aparajita Shars</li>
                   <li>2. Ipshita Bhattacharjee</li>
