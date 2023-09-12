@@ -69,20 +69,6 @@ const Home = () => {
             <br></br>
             <br></br>
             <div className="">
-              <h4>Team members:</h4>
-              <h4 style={{
-                borderRadius:"0.5em",
-              color: "black",
-              padding: "1em",
-              background: "linear-gradient(to left, rgba(0, 0, 0, 0),   rgb(192 251 86))",
-            }}>
-                <ul>
-                  <li>1. Aparajita Shars</li>
-                  <li>2. Ipshita Bhattacharjee</li>
-                  <li>3. Mamoni Sardar</li>
-                  <li>4. Bhagyasri Mishra</li>
-                </ul>
-              </h4>
             </div>
           </p>
           {/* <div className="hero-buttons">
